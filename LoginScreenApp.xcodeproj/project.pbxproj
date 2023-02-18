@@ -14,6 +14,11 @@
 		C01D904D299C0F0B002B114E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01D904C299C0F0B002B114E /* Assets.xcassets */; };
 		C01D9050299C0F0B002B114E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01D904E299C0F0B002B114E /* LaunchScreen.storyboard */; };
 		C01D9058299C0F90002B114E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D9057299C0F90002B114E /* WelcomeViewController.swift */; };
+		C08A94DB29A1517700928DD1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A94DA29A1517700928DD1 /* User.swift */; };
+		C08A94DE29A154BF00928DD1 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A94DD29A154BF00928DD1 /* UserViewController.swift */; };
+		C08A94E029A1553C00928DD1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A94DF29A1553C00928DD1 /* TabBarViewController.swift */; };
+		C08A94E229A1555F00928DD1 /* PetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A94E129A1555F00928DD1 /* PetViewController.swift */; };
+		C08A94E429A155A900928DD1 /* BioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A94E329A155A900928DD1 /* BioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		C01D904F299C0F0B002B114E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C01D9051299C0F0B002B114E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C01D9057299C0F90002B114E /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		C08A94DA29A1517700928DD1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		C08A94DD29A154BF00928DD1 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		C08A94DF29A1553C00928DD1 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C08A94E129A1555F00928DD1 /* PetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetViewController.swift; sourceTree = "<group>"; };
+		C08A94E329A155A900928DD1 /* BioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +70,27 @@
 			children = (
 				C01D9043299C0F0A002B114E /* AppDelegate.swift */,
 				C01D9045299C0F0A002B114E /* SceneDelegate.swift */,
-				C01D9047299C0F0A002B114E /* LoginViewController.swift */,
-				C01D9057299C0F90002B114E /* WelcomeViewController.swift */,
+				C08A94DC29A1549E00928DD1 /* View Controllers */,
 				C01D9049299C0F0A002B114E /* Main.storyboard */,
+				C08A94DA29A1517700928DD1 /* User.swift */,
 				C01D904C299C0F0B002B114E /* Assets.xcassets */,
 				C01D904E299C0F0B002B114E /* LaunchScreen.storyboard */,
 				C01D9051299C0F0B002B114E /* Info.plist */,
 			);
 			path = LoginScreenApp;
+			sourceTree = "<group>";
+		};
+		C08A94DC29A1549E00928DD1 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C01D9047299C0F0A002B114E /* LoginViewController.swift */,
+				C01D9057299C0F90002B114E /* WelcomeViewController.swift */,
+				C08A94DD29A154BF00928DD1 /* UserViewController.swift */,
+				C08A94DF29A1553C00928DD1 /* TabBarViewController.swift */,
+				C08A94E329A155A900928DD1 /* BioViewController.swift */,
+				C08A94E129A1555F00928DD1 /* PetViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C01D9048299C0F0A002B114E /* LoginViewController.swift in Sources */,
+				C08A94DE29A154BF00928DD1 /* UserViewController.swift in Sources */,
+				C08A94E229A1555F00928DD1 /* PetViewController.swift in Sources */,
 				C01D9058299C0F90002B114E /* WelcomeViewController.swift in Sources */,
 				C01D9044299C0F0A002B114E /* AppDelegate.swift in Sources */,
+				C08A94E029A1553C00928DD1 /* TabBarViewController.swift in Sources */,
+				C08A94DB29A1517700928DD1 /* User.swift in Sources */,
 				C01D9046299C0F0A002B114E /* SceneDelegate.swift in Sources */,
+				C08A94E429A155A900928DD1 /* BioViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

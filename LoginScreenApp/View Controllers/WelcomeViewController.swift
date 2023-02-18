@@ -11,11 +11,11 @@ final class WelcomeViewController: UIViewController {
 
     @IBOutlet var welcomeLabel: UILabel!
     
-    var userName: String?
+    var user: User!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        welcomeLabel.text = "Добро пожаловать, \(userName!)!"
+        welcomeLabel.text = "Добро пожаловать, \(user.person.name)!"
     }
 }
 
